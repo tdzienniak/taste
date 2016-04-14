@@ -1,6 +1,6 @@
 {
   "name": "taste.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Very simple state machine suitable for many kinds of applications (also games).",
   "main": "./build/taste.js",
   "scripts": {

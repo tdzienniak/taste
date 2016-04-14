@@ -3,6 +3,8 @@ src
 docs
 test
 
+npm-debug.log
+
 .eslintrc
 .babelrc
 
