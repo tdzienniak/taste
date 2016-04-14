@@ -1,4 +1,10 @@
 dist
+src
+docs
+test
+
+.eslintrc
+.babelrc
 
 *.sublime-project
 *.sublime-workspace

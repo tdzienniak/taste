@@ -63,7 +63,7 @@ const Taste = stampit().init(function () {
      * @return {Taste} Taste instance
      */
     feed(state) {
-        if (!type.of.object(state)) {
+        if (!isObject(state)) {
             return console.warn('Registered state must be an object.');
         }
 
@@ -217,4 +217,5 @@ const Taste = stampit().init(function () {
     }
 });
 
+export { Taste };
 export default Taste;
